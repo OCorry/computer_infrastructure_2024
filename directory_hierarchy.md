@@ -1,7 +1,10 @@
+## ***<span style="color:blue;display:block;text-align:center;">Visual representation of a hierarchy of Direcories and Files</span>***
+
+
 ```mermaid	
 graph TB;
     %%Creating Root Directory and its 2 subdirectories B &C
-    id1(Root Directory A) -->|B is Subdirectory of A|id2(Directory B);
+    id1("Root Directory A (/)") -->|B is Subdirectory of A|id2(Directory B);
     id2 -->|A is Parent Directory of B|id1;
 
     id1 --> |C is Subdirectory of A| id3(Directory C);
@@ -28,3 +31,8 @@ graph TB;
     %%Creating a file for Directory E
     id6 -->|Directory E contains File E| id10((File E));
 ```
+
+</br>
+</br>
+
+### (To revert back to Jupyter Notebook <span style="color:blue">weather.ipynb</span> click [here](./weather.ipynb).)

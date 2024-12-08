@@ -1,0 +1,11 @@
+,name,temperature,symbol,weatherDescription,text,windSpeed,windGust,cardinalWindDirection,windDirection,humidity,rainfall,pressure,dayName,date,reportTime
+0,Athenry,4,02n,Fair,"""Fair""",17,-,NW,315,85,0.0,1032,Sunday,2024-08-12,00:00
+1,Athenry,4,02n,Fair,"""Fair""",15,-,NW,315,87,0.0,1033,Sunday,2024-08-12,01:00
+2,Athenry,4,40n,Light rain showers,"""Recent Rain""",15,-,NW,315,89,0.01,1034,Sunday,2024-08-12,02:00
+3,Athenry,3,05n,Rain showers,"""Rain shower""",11,-,NW,315,91,0.1,1035,Sunday,2024-08-12,03:00
+4,Athenry,3,40n,Light rain showers,"""Recent Precipitation""",2,-,N,0,91,0.01,1036,Sunday,2024-08-12,04:00
+5,Athenry,2,02n,Fair,"""Fair""",11,-,NW,315,93,0.0,1036,Sunday,2024-08-12,05:00
+6,Athenry,3,02n,Fair,"""Fair""",15,-,NW,315,92,0.0,1037,Sunday,2024-08-12,06:00
+7,Athenry,4,04n,Cloudy,"""Cloudy""",13,-,NW,315,92,0.0,1037,Sunday,2024-08-12,07:00
+8,Athenry,4,46n,Light rain ,"""Recent Drizzle """,11,-,N,0,91,0.01,1038,Sunday,2024-08-12,08:00
+9,Athenry,4,02d,Fair,"""Fair""",7,-,N,0,89,0.0,1038,Sunday,2024-08-12,09:00

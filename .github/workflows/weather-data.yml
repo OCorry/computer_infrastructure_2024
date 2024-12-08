@@ -56,8 +56,3 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    # Step 7: Pull data back to Codespaces
-    - name: Pull data back to Codespaces
-      run: |
-        git fetch origin
-        git merge origin/main

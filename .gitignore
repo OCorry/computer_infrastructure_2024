@@ -188,3 +188,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Output of nohup command which pulls changes from GitHub to Codespaces
+nohup.out

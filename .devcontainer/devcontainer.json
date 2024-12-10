@@ -1,7 +1,0 @@
-/* 
-{
-    "name": "Weather Script Environment",
-
-    "postCreateCommand": "git pull origin main"
-  }
-*/

@@ -22,32 +22,20 @@ jobs:
     - name: Check out the repository
       uses: actions/checkout@v3
 
-    # Step 2: Set up Python
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.x  # Replace with your required Python version, e.g., 3.9
-
-    # Step 3: Install requirements from requirements.txt & make sure the most up to date version of pip is installed 
-    - name: Install Python dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-    # Step 4: Make the weather.sh script executable and run it
+    # Step 2: Make the weather.sh script executable and run it
     # `chmod +x` makes weather.sh executable to all users 
     - name: Make weather.sh executable and run it
       run: |
         chmod +x weather.sh 
         ./weather.sh
 
-    # Step 5: Configure git for pushing changes
+    # Step 3: Configure git for pushing changes
     - name: Configure git
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
 
-    # Step 6: Commit changes and push changes to my repository
+    # Step 4: Commit changes and push changes to my repository
     - name: Commit and push changes
       run: |
         git add .

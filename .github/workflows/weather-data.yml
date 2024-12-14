@@ -44,3 +44,9 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    # Step 5: Notify Codespaces Users 
+    - name: Notify Codespaces Users
+      run: |
+        echo "Changes have been pushed to the repository. To sync, run the following commands in Codespaces:"
+        echo "git pull"
+

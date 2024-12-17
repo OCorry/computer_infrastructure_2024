@@ -32,7 +32,7 @@ graph TB;
     id6 -->|Directory E contains File E| id10((File E));
 ```
 
-</br>
-</br>
+<br>
+<br>
 
-### (To revert back to Jupyter Notebook <span style="color:blue">weather.ipynb</span> click [here](./weather.ipynb).)
+### (To revert back to <span style="color:blue">weather.ipynb</span> notebook, click [here](../weather.ipynb))
